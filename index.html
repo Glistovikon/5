@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <p>0</p>
+    </header>
+
+    <section>
+
+      <div class="button-row">
+        <button class="signs">C</button>
+        <button class="signs">←</button>
+        <button class="signs">÷</button>
+      </div>
+      <div class="button-row">
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="signs">×</button>
+      </div>
+      <div class="button-row">
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="signs">-</button>
+      </div>
+      <div class="button-row">
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="signs">+</button>
+      </div>
+      <div class="button-row">
+        <button class="btn">0</button>
+        <button class="signs">=</button>
+      </div>
+
+
+    </section>
+
+  </div>
+
+  <script src="info/jquery.js"></script>
+  <script src="index.js"></script>
+  <script>
+    $('.button-row button:contains(0)').css('flex-basis', 323)
+    $('.button-row button:contains(←)').css('flex-basis', 200)
+  </script>
+</body>
+
+</html>
